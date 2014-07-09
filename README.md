@@ -1,5 +1,9 @@
 # accounts-entry
 
+Views are changed to allow for single buttons for either signup or signin without both.
+
+Use `profileEnabled: false` (true by default) and `signInDefault: false` (true by default) in `accounts_config.coffee` to set buttons.
+
 [![Build Status](https://travis-ci.org/Differential/accounts-entry.png)](https://travis-ci.org/Differential/accounts-entry)
 
 A meteorite package that relies on Iron Router and provides an
