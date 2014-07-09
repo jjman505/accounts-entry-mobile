@@ -3,7 +3,7 @@
   {{#wrapLinksLi}}
     <a class='profileLink' href='{{profileUrl}}'>{{{beforeSignedInAs}}}{{signedInAs}}</a>
   {{/wrapLinksLi}}
-{{else}}
+{{elseif profileEnabled}}
   {{#wrapLinksLi}}
     <p class="navbar-text">{{{beforeSignedInAs}}}{{signedInAs}}</p>
   {{/wrapLinksLi}}
